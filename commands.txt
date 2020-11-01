@@ -1,0 +1,9 @@
+xcode-select --install
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew cask install iterm2
+brew install bash # latest version of bash
+brew install git
+brew install vcprompt
+mkdir ~/workspace
+brew cask install visual-studio-code
